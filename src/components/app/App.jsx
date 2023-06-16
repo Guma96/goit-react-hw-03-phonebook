@@ -5,7 +5,7 @@ import { ContactList } from '../ContactList';
 import { Filter } from '../Filter';
 import { nanoid } from 'nanoid';
 import defaultContacts from '../../data/contacts.json';
-import { localStorageKey } from '../../path/localStorageKey';
+import { localStorageKey } from '../../patch/localStorageKey.js';
 
 export class App extends Component {
   state = {
