@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Frame, Container, Title, SubTitle } from './App.styled';
-import { localStorageKey } from '../LocalStorageKey';
+import { localStorageKey } from '../LocalStorageKey.js';
 import { ContactForm } from '../ContactForm';
 import { ContactList } from '../ContactList';
 import { Filter } from '../Filter';
