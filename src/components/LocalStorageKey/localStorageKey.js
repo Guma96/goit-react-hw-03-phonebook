@@ -1,1 +1,1 @@
-export const localStorageKey = "contacts";
+export const localStorageKey = 'contacts';
