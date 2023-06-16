@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Frame, Container, Title, SubTitle } from './App.styled';
+import { localStorageKey } from '../LocalStorageKey';
 import { ContactForm } from '../ContactForm';
 import { ContactList } from '../ContactList';
 import { Filter } from '../Filter';
 import { nanoid } from 'nanoid';
 import defaultContacts from '../../data/contacts.json';
-import { localStorageKey } from '../LocalStorageKey';
 
 export class App extends Component {
   state = {
